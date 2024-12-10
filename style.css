@@ -36,8 +36,12 @@ nav a {
   color: #fff;
 }
 
-nav a.active { text-decoration: underline; }
-nav a i { font-size: 20px; }
+nav a.active {
+  text-decoration: underline;
+}
+nav a i {
+  font-size: 20px;
+}
 
 .swiper {
   width: 100%;
@@ -72,7 +76,8 @@ h2 {
   font-size: 115px;
 }
 
-.info, .pricing {
+.info,
+.pricing {
   position: absolute;
   font-size: 14px;
 }
@@ -87,36 +92,45 @@ h2 {
   right: 10%;
 }
 
-.pricing p, .info p {
+.pricing p,
+.info p {
   font-weight: 600;
   margin-top: 10px;
 }
 
-.pricing span, .info span {
+.pricing span,
+.info span {
   display: block;
   line-height: 1.5;
   font-weight: 200 !important;
 }
 
-.pricing span { margin-bottom: 10px; }
-.pricing h3 { font-size: 30px; }
+.pricing span {
+  margin-bottom: 10px;
+}
+.pricing h3 {
+  font-size: 30px;
+}
 
 .btn-block {
   display: flex;
   margin-top: 10px;
 }
 
-.btn, .light-btn {
+.btn,
+.light-btn {
   padding: 18px 60px;
   font-family: "Poppins", sans-serif;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0, 0, 0, 0.25);
   border: none;
   color: #fff;
   font-size: 10px;
   cursor: pointer;
 }
 
-.light-btn { background: rgba(255,255,255,0.1); }
+.light-btn {
+  background: rgba(255, 255, 255, 0.1);
+}
 
 .swiper-thumbs {
   position: fixed;
@@ -132,7 +146,8 @@ h2 {
   cursor: pointer;
 }
 
-.scroll, .social {
+.scroll,
+.social {
   position: absolute;
   z-index: 10;
   font-size: 12px;
@@ -151,7 +166,7 @@ h2 {
 }
 
 .social a {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
   margin-inline: 10px;
 }
